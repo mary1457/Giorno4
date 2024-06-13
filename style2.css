@@ -1,0 +1,88 @@
+body {
+    background-image: url(./assets/img/sfondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background: linear-gradient(to bottom, #0699BB, #0088AA);
+    text-align: center;
+    color: white;
+    padding: 20px 10px 10px 10px;
+    margin: 30px 10px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{color:#FF2255;}
+
+main {
+    background-color: white;
+    text-align: left;
+    padding: 20px 10px 10px 10px;
+    margin: 30px 10px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+}
+main p b {color: #AA2072;}
+.p1 {color: gray;}
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow:
+      0 1px 1px rgba(0, 0, 0, 0.2),
+      0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+  }
+
+caption {font-style: italic;}
+table {width: 100%;
+    border-collapse: collapse;}
+.video {border-radius: 10px; 
+}
+table th {background-color: #0699BB;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+th, td {
+    padding: 10px;
+}
+main a {color: #0699BB;}
+main a:visited {color: #0699BB;}
+div {background-color: gray;}
+div h2 {text-align: center;}
+form{text-align: center;}
+button {background-color: #0699BB;
+color:white}
+footer {
+    background: linear-gradient(to bottom, #0699BB, #0088AA);
+    text-align: center;
+    color: white;
+    padding: 20px 10px 10px 10px;
+    margin: 30px 10px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
+footer a {color: #AA2072;}
